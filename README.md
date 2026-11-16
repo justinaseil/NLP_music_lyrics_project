@@ -25,7 +25,7 @@ Dainų tekstai į repozitoriją nekeliami (autorių teisės), jie atsisiunčiami
 ## Rezultatai
 
 ### Vidutinis žodžių skaičius dainoje
-![word counts](results/word_counts.png)
+![word counts](results/word_count.png)
 
 Priedainių šalinimas bendrą žodžių skaičių pakeitė minimaliai.
 Repo dainose žodžių vidutiniškai daugiau nei dvigubai nei kituose žanruose.
