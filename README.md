@@ -1,25 +1,23 @@
-# NLP_music_lyrics_project
-
-
 # Song Lyrics Topic Modeling: LSA vs NMF
 
 Dainų tekstų temų nustatymas ir analizė pop, rap ir rock žanruose.
-Tikrinama: (1) kaip skiriasi temos tarp žanrų, (2) ar pasikartojančių
-priedainių šalinimas keičia rezultatus, (3) kuris metodas (LSA ar NMF)
-pateikia geriau interpretuojamas temas.
+
+Tikrinama: 
+1. Kaip skiriasi temos tarp žanrų;
+2. Ar pasikartojančių priedainių šalinimas keičia rezultatus
+3. Kuris metodas (LSA ar NMF) pateikia geriau interpretuojamas temas.
 
 VU MIF, Duomenų mokslo studijų programa, projektinis darbas (2025).
 Vadovė: prof. dr. Gražina Korvel.
 
 ## Duomenys
-150 dainų iš Genius API: 3 žanrai × 5 atlikėjai × 10 dainų.
-Dainų tekstai į repozitoriją nekeliami (autorių teisės), jie atsisiunčiami paleidus kodą.
+150 dainų iš Genius API: 3 žanrai, 5 atlikėjai ir kiekvieno atlikėjo 10 dainų.
 
 ## Metodika
-1. Valymas (regex): skliaustai, intarpai (*oh, yeah*), skaičiai
-2. Lematizacija (spaCy) ir stop žodžių šalinimas (Gensim, 337 žodžiai)
-3. TF-IDF kiekvienam žanrui atskirai
-4. LSA (`TruncatedSVD`) ir NMF, po 3 temas žanrui, 10 top žodžių temai
+1. Valymas (regex): skliaustai, intarpai (*oh, yeah*), skaičiai;
+2. Lematizacija (spaCy) ir stop žodžių šalinimas (Gensim, 337 žodžiai);
+3. TF-IDF kiekvienam žanrui atskirai;
+4. LSA (`TruncatedSVD`) ir NMF, po 3 temas žanrui, 10 top žodžių temai;
 5. Tas pats su tekstais, kuriuose paliktas tik pirmas priedainis
 
 ## Rezultatai
@@ -52,7 +50,7 @@ Pilnos LSA ir NMF lentelės (su priedainiais ir be) pateiktos ataskaitoje `repor
 - Interpretacijos yra subjektyvios, tai autorių nuomonė, nėra faktas.
 
 ## Apribojimai
-Mažas imtis (150 dainų), tik 3 žanrai, fiksuotas temų skaičius (3), temų kokybė vertinta tik žmogaus akimi.
+Maža imtis (150 dainų), tik 3 žanrai, fiksuotas temų skaičius, temų kokybė vertinta tik žmogaus akimi.
 
 ## Tolesni žingsniai
 LDA, PLSA, CTM; Bag of Words vektorizacija; sentimentų analizė; daugiau žanrų ir atlikėjų.
