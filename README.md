@@ -55,14 +55,5 @@ Maža imtis (150 dainų), tik 3 žanrai, fiksuotas temų skaičius, temų kokyb�
 ## Tolesni žingsniai
 LDA, PLSA, CTM; Bag of Words vektorizacija; sentimentų analizė; daugiau žanrų ir atlikėjų.
 
-## Paleidimas
-```bash
-pip install -r requirements.txt
-python -m spacy download en_core_web_sm
-export GENIUS_TOKEN=jūsų_tokenas
-python topic_modeling.py
-```
-Tokeną gaunate čia: https://genius.com/api-clients
-
 ## Autoriai
 Justina Seiliūnaitė, Naglis Bražėnas
