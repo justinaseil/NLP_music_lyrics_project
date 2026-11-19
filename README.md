@@ -7,8 +7,6 @@ Tikrinama:
 2. Ar pasikartojančių priedainių šalinimas keičia rezultatus
 3. Kuris metodas (LSA ar NMF) pateikia geriau interpretuojamas temas.
 
-VU MIF, Duomenų mokslo studijų programa, projektinis darbas (2025).
-Vadovė: prof. dr. Gražina Korvel.
 
 ## Duomenys
 150 dainų iš Genius API: 3 žanrai, 5 atlikėjai ir kiekvieno atlikėjo 10 dainų.
